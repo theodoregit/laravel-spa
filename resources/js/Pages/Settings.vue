@@ -1,12 +1,10 @@
 <template>
-    <Layout>
-        <h1 class="text-4xl font-bold">Settings</h1>
-    </Layout>
+<Head>
+    <title>Settings</title>
+</Head>
+    <h1 class="text-4xl font-bold">Settings</h1>
 </template>
 
-<script>
-    import Layout from '../Shared/Layout';
-    export default {
-       components: { Layout },
-    };
+<script setup>
+    import { Head } from '@inertiajs/inertia-vue3';
 </script>
